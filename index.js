@@ -23,5 +23,5 @@ function iLoveTheBeatles (num){
   for (i = num; num <15;i++){
     array.push("I love the Beatles!")
   }
-return array 
+return array
 }
