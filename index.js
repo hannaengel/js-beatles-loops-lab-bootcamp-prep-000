@@ -1,11 +1,12 @@
 
-const newArrayConst= ['const']
-var newArray = ['var']
+const arrayConst= ['const']
+var oldArray = ['var']
 // newArray = []
 
-newArray = newArrayConst;
+// newArray = newArrayConst;
 
 function theBeatlesPlay (musicians, instruments){
-  newArray = []
+  newArray = oldArray
 
+  return newArray;
 }
