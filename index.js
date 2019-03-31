@@ -12,3 +12,16 @@ function johnLennonFacts (facts){
   }
 return facts
 }
+function iLoveTheBeatles (num){
+  var array = []
+  for (i = 0; num >15;i++){
+    array.push("I love the Beatles!")
+  }
+}
+function iLoveTheBeatles (num){
+  var array = []
+  for (i = num; num <15;i++){
+    array.push("I love the Beatles!")
+  }
+return array 
+}
