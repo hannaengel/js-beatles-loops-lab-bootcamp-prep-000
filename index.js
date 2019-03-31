@@ -6,7 +6,9 @@ var oldArray = ['var']
 // newArray = newArrayConst;
 
 function theBeatlesPlay (musicians, instruments){
-  newArray = oldArray
-
-  return newArray;
-}
+  newArray= []
+  for (i=0;i<=musicians.length; i++){
+    newArray.push(`$(musicians[i]) plays $(instruments[i]).`)
+  }
+}return newArray
+  
