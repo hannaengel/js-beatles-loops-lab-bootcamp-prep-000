@@ -20,7 +20,7 @@ function iLoveTheBeatles (num){
 }
 function iLoveTheBeatles (num){
   var array = []
-  for (i = num; num <15;i++){
+  for (var i = num; num <15;i++){
     array.push("I love the Beatles!")
   }
 return array
